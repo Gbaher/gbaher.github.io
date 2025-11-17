@@ -1,6 +1,4 @@
-/* ================================
-   GLOBAL VARIABLES & RESET
-=================================== */
+
 
 :root {
   --brand-red: #ee2450;
@@ -16,6 +14,7 @@
 body {
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 18px;
   background-color: var(--dark-blue);
   color: var(--text-color);
 }
@@ -29,9 +28,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* ================================
-   PAGE LAYOUT
-=================================== */
 
 header,
 main,
@@ -48,9 +44,7 @@ header {
   gap: 1rem;
 }
 
-/* ================================
-   HEADER & NAVIGATION
-=================================== */
+
 
 .logo {
   max-height: 60px;
@@ -67,9 +61,7 @@ nav a {
   font-weight: 500;
 }
 
-/* ================================
-   HERO SECTION (INDEX PAGE)
-=================================== */
+
 
 .hero {
   display: flex;
@@ -82,28 +74,28 @@ nav a {
   border-bottom: 1px solid var(--grey);
 }
 
-.hero-text {
+.text {
   flex: 1 1 260px;
 }
 
-.hero-text h1 {
+.text h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-size: 2rem;
 }
 
-.hero-text p {
+.text p {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
   color: #d5d5d5;
 }
 
-.hero-photo {
+.photo {
   flex: 0 0 220px;
   text-align: center;
 }
 
-.hero-photo img {
+.photo img {
   max-width: 220px;
   height: auto;
   border-radius: 50%;
@@ -111,9 +103,7 @@ nav a {
   margin: 0 auto;
 }
 
-/* ================================
-   SECTIONS
-=================================== */
+
 
 .section-block {
   margin-top: 2rem;
@@ -142,9 +132,6 @@ nav a {
   color: #d5d5d5;
 }
 
-/* ================================
-   NOTES PAGE (notes.html)
-=================================== */
 
 h1 {
   margin-top: 1rem;
@@ -171,9 +158,6 @@ dd {
   color: #d5d5d5;
 }
 
-/* ================================
-   FOOTER
-=================================== */
 
 footer {
   text-align: center;
