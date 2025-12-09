@@ -1,0 +1,6 @@
+[submodule "final-project"]
+    path = final-project
+    url = https://github.com/gbaher/final-project.git
+[submodule "http-assignement"]
+    path = http-assignement
+    url = https://github.com/gbaher/http-assignement.git
