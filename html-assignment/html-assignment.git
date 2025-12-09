@@ -1,0 +1,17 @@
+# Este archivo es un repositorio Git vacío.
+# Para inicializarlo, ejecuta los siguientes comandos en la terminal:
+
+git init
+git add .
+git commit -m "Initial commit"
+
+# Si deseas agregar un archivo README.md, puedes crear uno así:
+
+echo "# html-assignment" > README.md
+git add README.md
+git commit -m "Add README.md"
+
+# Para conectar con un repositorio remoto (por ejemplo, en GitHub):
+
+git remote add origin https://github.com/gbaher/html-assignment.git
+git push -u origin master
